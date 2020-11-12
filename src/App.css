@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+html {
+  font-size: calc( 10px + (14 - 10) * ((100vw - 400px) / ( 800 - 400)));
+}
+
+body {
+  font-family: sans-serif;
+  background: #eceaee;
+}
+
+#initCreatePostBlock {
+  height: 40px;
+}
+
+.postBlock {
+  margin: auto;
+  margin-top: 20px;
+  width: 400px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.initCreatePostDiv {
+  height: 40px;
+  width: 390px;
+  display: table-cell; 
+  vertical-align: middle;
+  text-align: right;
+}
+
+.blueBtn {
+  width: 120px;
+  height: 25px;
+  background-color: rgb(89, 43, 196);
+  color: white;
+  border-radius: 3px;
+}
+
+.redBtn {
+  height: 25px;
+  background-color: rgb(182, 43, 43);
+  color: white;
+  border-radius: 3px;
+}
+
+.narrowBtn {
+  width: 80px;
+  margin-left: 10px;
+}
+
+#upperSections{
+  height: 40px;
+  width: 400px;
+  display: table-cell; 
+  vertical-align: middle;
+  margin: 15px;
+  text-align: center;
+}
+
+#upperSections p{
+  display: inline-block;
+  width: 23%;
+}
+
+#upperSections b{
+  display: inline-block;
+}
+
+#upperSections b:hover{
+  cursor: pointer;
+}
+
+img{  
+  width: 25px;
+}
+
+#newPostImgDiv {
+  display: inline-block;
+  width: 15%;
+  text-align: center;
+  vertical-align: top;
+}
+
+#divNewPost input{
+  display: inline-block;
+  width: 75%;
+}
+
+textarea {
+  border-width: 0px;
+  width: 300px;
+  height: 100px;
+  resize: none;
+  padding: 10px;
+  font-size: 14pt;
+}
+
+.textareaWide {
+  width: 100%;
+}
+
+.right {
+  text-align: right;
+}
+
+.reaction {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+}
+
+.inline {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.postHeader table{
+  border: none;
+}
+
+.userName {
+  color: rgb(65, 74, 199);
+}
+
+.userPosition {
+  color: rgb(103, 104, 116);
+}
+
+.commentBlock input{
+  height: 30px;
+  width:340px;
+  border-radius: 15px;
+  margin-left: 10px;
+  padding-left: 10px;
+  border-color: gainsboro;
+}
+
+.padding {
+  padding: 10px;
+}
+
+.leftPadding {
+  padding-left: 10px;
+}
+
+.cardInList:hover {
+  cursor: pointer;
+}
+
+#pageNotFound {
+  text-align: center;
+  margin-top: 300px;
+  font-size: 16pt;
+}
+
+.editPostExtraActions td{
+  background-color: rgb(240, 238, 238);
+  border-radius: 10px;
+}
+
+.editPostExtraActions {
+  border-spacing: 10px;
+}
+
+.width20per {
+  width: 20%;
+}
+
+.width80per {
+  width: 80%;
+}
